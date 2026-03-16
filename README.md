@@ -21,27 +21,27 @@ and deterministic non-AI inpainting, wrapped in a real-time GUI with an interact
 ## Key ingredients
 
 ### Inference
-- **Multi-model inference** — specialised models merged at inference time for
+- **Multi-model inference** - specialised models merged at inference time for
   robust joint detection
 - **Runtime-optimised inference** via ONNX Runtime (cross-platform) and CoreML
   `.mlpackage` (Apple Silicon / Intel Mac)
-- **Adaptive preprocessing** — input scaling adjusted to balance sensitivity and
+- **Adaptive preprocessing** - input scaling adjusted to balance sensitivity and
   inference cost
 
 ### Detection & filtering
-- **Confidence-based filtering** — detections are filtered to suppress noise while
+- **Confidence-based filtering** - detections are filtered to suppress noise while
   retaining genuine artefacts
-- **Region-wise sensitivity control** — the operator configures detection
+- **Region-wise sensitivity control** - the operator configures detection
   aggressiveness per image region without requiring re-inference
 
 ### Inpainting
 - **Deterministic non-AI inpainting** using classical computer vision methods,
-  bounded strictly to detected regions — no generative model, no hallucination risk
+  bounded strictly to detected regions - no generative model, no hallucination risk
 
 ### Application architecture
-- **Native Rust** — no Python runtime required at inference time
+- **Native Rust** - no Python runtime required at inference time
 - **Real-time rendering** via egui GUI with a layer-compositing canvas
-- **Background threading** — the GUI remains responsive throughout
+- **Background threading** - the GUI remains responsive throughout
 
 ---
 
