@@ -1,4 +1,4 @@
-# Film Impurity Removal — Native Desktop Application (Rust)
+# Film Impurity Removal - Native Desktop Application (Rust)
 
 > **Privacy notice:** This repository is a public placeholder. The full source code remains
 > private as this is an ongoing freelancing engagement. I am happy to walk through the
@@ -20,26 +20,26 @@ and deterministic non-AI inpainting, wrapped in a real-time GUI with an interact
 ## Key ingredients
 
 ### Inference
-- **Ensemble model architecture** — multiple specialised models targeting distinct
+- **Ensemble model architecture** - multiple specialised models targeting distinct
   artefact types, merged at inference time for robust joint detection
 - **Runtime-optimised inference** via ONNX Runtime (cross-platform) and CoreML
   `.mlpackage` (Apple Silicon / Intel Mac)
-- **Resolution-adaptive preprocessing** — input scaling is adjusted to balance sensitivity and inference cost
+- **Resolution-adaptive preprocessing** - input scaling is adjusted to balance sensitivity and inference cost
 
 ### Detection filtering
-- **Adaptive filtering** — detections are filtered through a multi-threshold
+- **Adaptive filtering** - detections are filtered through a multi-threshold
   confidence pipeline, suppressing noise while retaining genuine artefacts
-- **Area-wise sensitivity control** — the operator configures per-region detection
+- **Area-wise sensitivity control** - the operator configures per-region detection
   aggressiveness directly on the canvas without requiring re-inference
 
 ### Inpainting
 - **Deterministic non-AI inpainting** using classical computer vision methods,
-  bounded strictly to detected regions — no generative model, no hallucination risk
+  bounded strictly to detected regions - no generative model, no hallucination risk
 
 ### Application architecture
-- **Native Rust** — no Python runtime required at inference time
+- **Native Rust** - no Python runtime required at inference time
 - **Real-time rendering** via egui GUI with a layer-compositing canvas
-- **Background threading** — inference and processing run off the main thread;
+- **Background threading** - inference and processing run off the main thread;
   the GUI remains responsive throughout
 
 ---
@@ -68,7 +68,7 @@ available separately.
 
 ## Authors
 
-Paul Rüsing — [pr@paulruesing.de](mailto:pr@paulruesing.de) — sole contributor  
+Paul Rüsing - [pr@paulruesing.de](mailto:pr@paulruesing.de) - sole contributor  
 Developed for an imaging technology client (ongoing engagement).
 
 ## License
