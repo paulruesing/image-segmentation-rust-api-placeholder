@@ -3,8 +3,7 @@
 > **Privacy notice:** This repository is a public placeholder with a reduced, high-level
 > description of the work for public presentation. The full source code remains
 > private as this is an ongoing freelancing engagement. I am happy to walk through the
-> architecture and code in a private session upon request - feel free to reach out at
-> pr@paulruesing.de.
+> architecture and code in a private session upon request.
 
 ---
 
