@@ -9,8 +9,8 @@
 
 ## What this project is
 
-A native desktop application for **automated detection and inpainting of image artefacts
-**. Built end-to-end as a freelance project for an imaging technology client.
+A native desktop application for **automated detection and inpainting of image artefacts**.
+Built end-to-end as a freelance project for an imaging technology client.
 
 The system combines neural-network-based confidence heatmaps with adaptable, area-wise filtering
 and deterministic non-AI inpainting, wrapped in a real-time GUI with an interactive layer-compositing canvas.
