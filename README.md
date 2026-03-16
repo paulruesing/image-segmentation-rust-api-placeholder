@@ -2,7 +2,7 @@
 
 > **Privacy notice:** This repository is a public placeholder. The full source code remains
 > private as this is an ongoing freelancing engagement. I am happy to walk through the
-> architecture and code in a private session upon request — feel free to reach out at
+> architecture and code in a private session upon request - feel free to reach out at
 > pr@paulruesing.de.
 
 ---
